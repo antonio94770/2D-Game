@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Progetto:  File sorgente Player.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Progetto
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Definizioni</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Player.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Player_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aa">    4</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaaba595d8bca8bc5e67c37c0a9d89becfa">    6</a></span>&#160;    <a class="code" href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaaba595d8bca8bc5e67c37c0a9d89becfa">UP</a>, <a class="code" href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa9b0b4a95b99523966e0e34ffdadac9da">DOWN</a>, <a class="code" href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa679ee5320d66c8322e310daeb2ee99b8">STOP</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;};</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structSpaceShip.html">    9</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structSpaceShip.html">SpaceShip</a> </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structSpaceShip.html#a1dc0c66aa305d8369daf5b7cdc400a1b">   11</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#a1dc0c66aa305d8369daf5b7cdc400a1b">ID</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structSpaceShip.html#a344b3cc993f76b762d926a8d432dbc5e">   12</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#a344b3cc993f76b762d926a8d432dbc5e">x</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structSpaceShip.html#a8f034bcec627a5eee747a6867b616261">   13</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#a8f034bcec627a5eee747a6867b616261">y</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structSpaceShip.html#a09c181280c89d7ec6bda2ee4f7a357a7">   14</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#a09c181280c89d7ec6bda2ee4f7a357a7">speed</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structSpaceShip.html#acca47f77ff736be285454c34ecea7f4c">   15</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#acca47f77ff736be285454c34ecea7f4c">physics</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structSpaceShip.html#aba716372043e05c6767c0bc6d24c0381">   16</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#aba716372043e05c6767c0bc6d24c0381">score</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structSpaceShip.html#aec79fa002bf4ac96410916002223349b">   17</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structSpaceShip.html#aec79fa002bf4ac96410916002223349b">bestscore</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structSpaceShip.html#a2ab256225844d0f3304fbea68ca1ddf2">   19</a></span>&#160;    ALLEGRO_BITMAP *<a class="code" href="structSpaceShip.html#a2ab256225844d0f3304fbea68ca1ddf2">image</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Player_8h.html#a5218622a8ea14a79805b7a6696f736e3">InitShip</a>(<a class="code" href="structSpaceShip.html">SpaceShip</a> &amp;, ALLEGRO_BITMAP);     </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Player_8h.html#aab152413849f15db947fe3e4ec0ec50c">DrawMap_Text_Player</a>(ALLEGRO_COLOR, <a class="code" href="structSpaceShip.html">SpaceShip</a>, ALLEGRO_FONT);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="Player_8h.html#a040fe973c1f11483ae68561b0568984d">SetPlayerImage</a>(<a class="code" href="structSpaceShip.html">SpaceShip</a> &amp;, ALLEGRO_BITMAP);</div>
+<div class="ttc" id="structSpaceShip_html_acca47f77ff736be285454c34ecea7f4c"><div class="ttname"><a href="structSpaceShip.html#acca47f77ff736be285454c34ecea7f4c">SpaceShip::physics</a></div><div class="ttdeci">int physics</div><div class="ttdef"><b>Definition:</b> Player.h:15</div></div>
+<div class="ttc" id="Player_8h_html_a224b9163917ac32fc95a60d8c1eec3aa"><div class="ttname"><a href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a></div><div class="ttdeci">Direction</div><div class="ttdef"><b>Definition:</b> Player.h:4</div></div>
+<div class="ttc" id="structSpaceShip_html_a1dc0c66aa305d8369daf5b7cdc400a1b"><div class="ttname"><a href="structSpaceShip.html#a1dc0c66aa305d8369daf5b7cdc400a1b">SpaceShip::ID</a></div><div class="ttdeci">int ID</div><div class="ttdef"><b>Definition:</b> Player.h:11</div></div>
+<div class="ttc" id="structSpaceShip_html_a8f034bcec627a5eee747a6867b616261"><div class="ttname"><a href="structSpaceShip.html#a8f034bcec627a5eee747a6867b616261">SpaceShip::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> Player.h:13</div></div>
+<div class="ttc" id="Player_8h_html_a224b9163917ac32fc95a60d8c1eec3aaa9b0b4a95b99523966e0e34ffdadac9da"><div class="ttname"><a href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa9b0b4a95b99523966e0e34ffdadac9da">DOWN</a></div><div class="ttdef"><b>Definition:</b> Player.h:6</div></div>
+<div class="ttc" id="structSpaceShip_html_aec79fa002bf4ac96410916002223349b"><div class="ttname"><a href="structSpaceShip.html#aec79fa002bf4ac96410916002223349b">SpaceShip::bestscore</a></div><div class="ttdeci">int bestscore</div><div class="ttdef"><b>Definition:</b> Player.h:17</div></div>
+<div class="ttc" id="Player_8h_html_a224b9163917ac32fc95a60d8c1eec3aaaba595d8bca8bc5e67c37c0a9d89becfa"><div class="ttname"><a href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaaba595d8bca8bc5e67c37c0a9d89becfa">UP</a></div><div class="ttdef"><b>Definition:</b> Player.h:6</div></div>
+<div class="ttc" id="Player_8h_html_a224b9163917ac32fc95a60d8c1eec3aaa679ee5320d66c8322e310daeb2ee99b8"><div class="ttname"><a href="Player_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa679ee5320d66c8322e310daeb2ee99b8">STOP</a></div><div class="ttdef"><b>Definition:</b> Player.h:6</div></div>
+<div class="ttc" id="Player_8h_html_a5218622a8ea14a79805b7a6696f736e3"><div class="ttname"><a href="Player_8h.html#a5218622a8ea14a79805b7a6696f736e3">InitShip</a></div><div class="ttdeci">void InitShip(SpaceShip &amp;, ALLEGRO_BITMAP)</div><div class="ttdoc">Inizializzazione navicella spaziale. </div></div>
+<div class="ttc" id="structSpaceShip_html_aba716372043e05c6767c0bc6d24c0381"><div class="ttname"><a href="structSpaceShip.html#aba716372043e05c6767c0bc6d24c0381">SpaceShip::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> Player.h:16</div></div>
+<div class="ttc" id="Player_8h_html_a040fe973c1f11483ae68561b0568984d"><div class="ttname"><a href="Player_8h.html#a040fe973c1f11483ae68561b0568984d">SetPlayerImage</a></div><div class="ttdeci">void SetPlayerImage(SpaceShip &amp;, ALLEGRO_BITMAP)</div></div>
+<div class="ttc" id="Player_8h_html_aab152413849f15db947fe3e4ec0ec50c"><div class="ttname"><a href="Player_8h.html#aab152413849f15db947fe3e4ec0ec50c">DrawMap_Text_Player</a></div><div class="ttdeci">void DrawMap_Text_Player(ALLEGRO_COLOR, SpaceShip, ALLEGRO_FONT)</div></div>
+<div class="ttc" id="structSpaceShip_html_a2ab256225844d0f3304fbea68ca1ddf2"><div class="ttname"><a href="structSpaceShip.html#a2ab256225844d0f3304fbea68ca1ddf2">SpaceShip::image</a></div><div class="ttdeci">ALLEGRO_BITMAP * image</div><div class="ttdef"><b>Definition:</b> Player.h:19</div></div>
+<div class="ttc" id="structSpaceShip_html_a344b3cc993f76b762d926a8d432dbc5e"><div class="ttname"><a href="structSpaceShip.html#a344b3cc993f76b762d926a8d432dbc5e">SpaceShip::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> Player.h:12</div></div>
+<div class="ttc" id="structSpaceShip_html"><div class="ttname"><a href="structSpaceShip.html">SpaceShip</a></div><div class="ttdoc">Struttura navicella spaziale. </div><div class="ttdef"><b>Definition:</b> Player.h:9</div></div>
+<div class="ttc" id="structSpaceShip_html_a09c181280c89d7ec6bda2ee4f7a357a7"><div class="ttname"><a href="structSpaceShip.html#a09c181280c89d7ec6bda2ee4f7a357a7">SpaceShip::speed</a></div><div class="ttdeci">int speed</div><div class="ttdef"><b>Definition:</b> Player.h:14</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Mar 28 Lug 2015 19:56:14 per Progetto da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
